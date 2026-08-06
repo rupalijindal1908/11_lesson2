@@ -1,0 +1,36 @@
+body { 
+background-color: darkblue;
+background-image: linear-gradient( to bottom navy, darkblue );
+background-repeat: no-repeat;
+background-position: top center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.head{
+border-radius: 12px;
+text-align:top center ;
+color:white ;
+background-image: linear-gradient(to bottom coral, purple);
+}
+.main {
+    background-color: midnightblue;
+    border-radius: 16px;
+    color: white;
+}
+.main h2{
+    color: coral;
+}
+.animation {
+    height: 60px;
+    width: 60px ;
+    background-color:yellow ;
+    border-radius:50% ;
+animation: twinkle 2s infinite alternate;
+}
+@keyframes twinkle {
+    from{ background-color: yellow;}
+    to {background-color: white;}
+}
+.footer{
+text-align: center;
+color: coral;
+}
